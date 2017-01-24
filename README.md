@@ -28,11 +28,13 @@ Usage:
 
 asdf
 
-### Classes of Ant Colony Optimization
+### Classes of QuadTree implementation
 
 * **Object.pde**
 
 > Class that represents the object entity.
+
+A object is a item with a position `(x, y)` and a `value` attribute.
 
 The attributes for Object class are:
   
@@ -53,6 +55,8 @@ The methods for Object class are:
 * **QuadTree.pde**
 
 > Class that represents the QuadTree entity.
+
+The QuadTree class is responsible for all features and implementations based on the concepts of the QuadTree data structure.
 
 The attributes for QuadTree class are:
   
@@ -96,8 +100,7 @@ The methods for QuadTree class are:
 
 * **QuadTreeProcessing.pde**
 
-> Main class that represents the integration of all entities (ant, anthill, food, pheromone, and map) of the Ant Colony Optimization context.
-
+> Main class that represents the integration of all entities (Object and QuadTree) of the QuadTree context.
 
 The attributes for QuadTreeProcessing class are:
   
@@ -136,10 +139,31 @@ The methods for QuadTreeProcessing class are:
   int getSelectedCol(int mouseX) { ... }
 ```
 
+<a name="quadtree-instructions"></a>
+## Instructions for QuadTree simulation (keyboard and mouse commands)
+
+asdf
+
+| Type          | Command             | Description                               |
+| ------------- | ------------------- | ----------------------------------------- |
+| `Keyboard`    | Press <kbd>C</kbd>  | Clear the simulation                      |
+| `Keyboard`    | Press <kbd>R</kbd>  | Generate random objects                   |
+| `Keyboard`    | Press <kbd>F2</kbd> | Show or hide (simulate) QuadTrees         |
+| `Mouse`       | `Left`-click        | Create an object at `(x, y)` mouse event  |
+
 <a name="all-examples"></a>
 ## Examples
 
 <a name="quadtree-examples-1"></a>
-### > asdf
+### > Interacting with QuadTree simulation features
 
-asdf
+| quadtree_1.png           | quadtree_2.png           |
+| ------------------------ | ------------------------ |
+| ![](examples/quadtree_1.png) | ![](examples/quadtree_2.png) |
+
+<a name="quadtree-examples-2"></a>
+### > Generating random objects for QuadTree simulation
+
+| quadtree-random_1.png     |
+| ------------------------ |
+| ![](examples/quadtree-random_1.png) |
