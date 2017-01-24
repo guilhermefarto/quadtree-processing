@@ -135,9 +135,6 @@ Those arguments can be modified by changing the constants value of the QuadTreeP
 The attributes for QuadTreeProcessing class are:
   
 ```java
-  final int DEFAULT_SCALE = 4
-  final int MAX_OBJECTS = 4
-
   int MAX_LEVELS
   int RANDOM_OBJECTS
 
