@@ -16,4 +16,4 @@ Feel free to contact me by mail: guilherme.farto@gmail.com
 
 <a name="quadtree-processing"></a>
 ## QuadTree (QuadTreeProcessing.pde)
-> Based on [QuadTree](https://en.wikipedia.org/wiki/Quadtree) implementation - a two-dimensional tree data structure in which each internal node has exactly four children
+> Based on [QuadTree](https://en.wikipedia.org/wiki/Quadtree) data structure - a two-dimensional tree data structure in which each internal node has exactly four children
