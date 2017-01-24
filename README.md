@@ -98,6 +98,25 @@ The methods for QuadTree class are:
   void log() { ... }
 ```
 
+In addition to implementing the essential QuadTree concepts, the class can also be modified or extended (i) to enable or disable the insertion of new objects when the maximum quantity is reached and (ii) to configure the use of a random color for each quadrant (facilitates the visualization of objects and quadrants).
+
+Those arguments can be modified by changing the constants value of the QuadTree class based on the following `snippet`:
+
+```java
+  final boolean LOCK_INSERTION_BY_MAX_OBJECTS = false;
+  final boolean ENABLE_RANDOM_COLOR_PER_QUAD = false;
+```
+
+The use of a mechanism for random color generation is orchestrated based on the following `snippet`:
+
+```java
+  if (ENABLE_RANDOM_COLOR_PER_QUAD) {
+    this.randomColorForObjects = color(int(random(0, 255)), int(random(0, 255)), int(random(0, 255)));
+  } else {
+    this.randomColorForObjects = color(150);
+  }
+```
+
 * **QuadTreeProcessing.pde**
 
 > Main class that represents the integration of all entities (Object and QuadTree) of the QuadTree context.
