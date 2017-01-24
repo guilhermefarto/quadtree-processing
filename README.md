@@ -102,6 +102,17 @@ The methods for QuadTree class are:
 
 > Main class that represents the integration of all entities (Object and QuadTree) of the QuadTree context.
 
+The QuadTreeProcessing class is responsible for initializing and controlling the QuadTree simulation, e.g., (i) interaction through keyboard and mouse commands and (ii) drawing methods that provide a graphical representation based on QuadTree data structure.
+
+It is possible to (i) the default scale that is used to draw the initial grid and (ii) the maximum number of objects that the QuadTree structure can hold in each quadrant (and in each quadrant level).
+
+Those arguments can be modified by changing the constants value of the QuadTreeProcessing class based on the following `snippet`:
+
+```java
+  final int DEFAULT_SCALE = 4
+  final int MAX_OBJECTS = 4
+```
+
 The attributes for QuadTreeProcessing class are:
   
 ```java
