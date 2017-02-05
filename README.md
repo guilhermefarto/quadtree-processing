@@ -2,7 +2,7 @@
 
 [Processing](https://processing.org/) project for 
 
-* [QuadTree](#qt-processing) simulation ([examples](#all-examples))
+* (i) [QuadTree](#qt-processing) simulation ([examples](#all-examples))
 
 ## Dependencies
 
