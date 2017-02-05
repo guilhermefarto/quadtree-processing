@@ -2,7 +2,7 @@
 
 [Processing](https://processing.org/) project for 
 
-* [QuadTree](#quadtree-processing) simulation ([examples](#all-examples))
+* [QuadTree](#qt-processing) simulation ([examples](#all-examples))
 
 ## Dependencies
 
@@ -14,7 +14,7 @@ Feel free to contact me by mail: guilherme.farto@gmail.com
 
 ---
 
-<a name="quadtree-processing"></a>
+<a name="qt-processing"></a>
 ## QuadTree (QuadTreeProcessing.pde)
 > Based on [QuadTree](https://en.wikipedia.org/wiki/Quadtree) data structure - a two-dimensional tree data structure in which each internal node has exactly four children
 
@@ -181,14 +181,14 @@ asdf
 <a name="all-examples"></a>
 ## Examples
 
-<a name="quadtree-examples-1"></a>
+<a name="qt-examples-1"></a>
 ### > Interacting with QuadTree simulation features
 
 | quadtree_1.png           | quadtree_2.png           |
 | ------------------------ | ------------------------ |
 | ![](examples/quadtree_1.png) | ![](examples/quadtree_2.png) |
 
-<a name="quadtree-examples-2"></a>
+<a name="qt-examples-2"></a>
 ### > Generating random objects for QuadTree simulation
 
 | quadtree-random_1.png     |
